@@ -34,5 +34,14 @@
     "pug": "^2.0.3",
     "sequelize": "^5.0.0-beta.11",
     "stripe": "^8.76.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irahulsah/Nodejs-shoppingCart.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/irahulsah/Nodejs-shoppingCart/issues"
+  },
+  "homepage": "https://github.com/irahulsah/Nodejs-shoppingCart#readme"
 }

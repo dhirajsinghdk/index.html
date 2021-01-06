@@ -14,7 +14,7 @@ const errorController = require("./controllers/error");
 const User = require("./models/user");
 
 const MONGODB_URI =
-  "mongodb+srv://<your username>:<your password>@cluster0.4epua.mongodb.net/shop";
+  "mongodb+srv://Mohan:singh@cluster0.ktppx.mongodb.net/hello?retryWrites=true&w=majority";
 
 const app = express();
 const store = new MongoDBStore({
