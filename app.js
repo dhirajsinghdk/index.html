@@ -108,7 +108,7 @@ mongoose
   .connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => {
     console.log("connected");
-    app.listen(3000);
+    app.listen(process.env.port || 80);
   })
   .catch((err) => {
     console.log(err);
